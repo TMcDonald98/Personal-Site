@@ -1,18 +1,89 @@
 .Main-Container {
-  background: hsl(201, 12%, 38%);
+  background: #fafafa;
   min-height: 100vh;
+  min-width: 100vw;
 }
-.Banner {
-  background: #343c40;
-  height: 100px;
+
+.SideBanner {
   display: flex;
+  flex-direction: column;
+  padding: 40px 45px 75px;
+  /* min-height: 100vh; */
 }
 
 .Title {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'MuseoSans', 'Khanaya', sans-serif;
-  color: white;
-  align-self: center;
-  justify-self: end;
+  color:  #3b80fe;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+  justify-items: center;
 }
+
+.Subtitle {
+  font-size: 24px;
+  font-family: 'MuseoSans', 'Khanaya', sans-serif;
+  color: #4a4a4a;
+}
+
+.Body {
+  margin-top: 35px;
+  font-size: 16px;
+  font-family: 'MuseoSans100';
+  color: #4a4a4a;
+}
+.Content-Container {
+  padding: 40px 45px 75px;
+}
+
+.ContentTitle {
+  color:#fafafa;
+  font-size: 24px;
+  font-family: 'MuseoSans100', 'Khanaya', sans-serif;
+
+}
+
+.Content1 {
+  background: #f4b93d
+}
+
+.Content2 {
+  background: #005ba9
+}
+
+.Content3 {
+  background: #b4ddbf
+}
+
+.Content2 {
+  background: #005ba9
+}
+
+.Icon-Container {
+  flex-direction: row;
+  margin-top: 35px;
+}
+
+.Icon {
+  margin-right: 40px;
+  height:24px;
+}
+
+.Link-Wrapper {
+  display:inline-block;
+  text-decoration: none;
+}
+
+.EmailButton{
+  padding:15px 65px;
+  background: #3b80fe;
+  color:#fafafa;
+  font-size: 16px;
+  font-family: 'MuseoSans100', 'Khanaya', sans-serif;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+
 

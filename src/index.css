@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'MuseoSans';
   src: local('MuseoSans'), url(./fonts/MuseoSansDisplay-Black.ttf) format('truetype');
+  font-family: 'MuseoSans100';
+  src: local('MuseoSans100'), url(./fonts/MuseoSans-100.ttf) format('truetype');
 }
 
 body {
