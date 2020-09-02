@@ -36,7 +36,7 @@ function App() {
         </div>
         <a className="Link-Wrapper Icon-Container" href="mailto:ThomasMcDonald1998@Gmail.com?subject=Website Inquiry">
           <a className="EmailButton">
-            Hit Me Up
+            Hit Me Up!
           </a>
         </a>
 
