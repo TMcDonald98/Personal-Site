@@ -7,8 +7,27 @@
 .SideBanner {
   display: flex;
   flex-direction: column;
-  padding: 40px 45px 75px;
+  
   /* min-height: 100vh; */
+}
+.SideContent {
+  padding: 40px 45px 75px;
+}
+
+@media screen and (min-width: 768px){
+  .SideBanner{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 33%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
+  
+  .All-Content{
+    margin-left: 33%;
+  }
 }
 
 .Title {
@@ -95,6 +114,15 @@
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
   border-radius: 100px;
   text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  padding: 35px;
+  background: #222222;
+  font-family: 'MuseoSans100', 'Khanaya', sans-serif;
+  color:#fafafa;
+  font-size: 16px;
 }
 
 
