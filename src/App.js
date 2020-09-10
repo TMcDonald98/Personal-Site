@@ -7,6 +7,7 @@ import gitHub from "./icons/github-image.png"
 import beerViz from "./Images/BeerViz.PNG"
 import gitHubW from "./icons/github.png"
 import resume from "./icons/resume.png"
+import resumePDF from "./Documents/Resume (Thomas McDonald).pdf"
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
           <form className="Link-Wrapper" action="https://github.com/TMcDonald98">
             <input type="image" className="Icon" src={gitHub} alt="GitHub"/>
           </form>
-          <form className="Link-Wrapper" action="https://github.com/TMcDonald98">
+          <form className="Link-Wrapper" action={resumePDF}>
             <input type="image" className="Icon" src={resume} alt="GitHub"/>
           </form>
         </div>
