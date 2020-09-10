@@ -51,11 +51,11 @@ function App() {
             <input type="image" className="Icon" src={resume} alt="GitHub"/>
           </form>
         </div>
-        <div className="Link-Wrapper Icon-Container" href="mailto:ThomasMcDonald1998@Gmail.com?subject=Website Inquiry">
-          <a className="EmailButton">
+        <a className="Link-Wrapper Icon-Container" href="mailto:ThomasMcDonald1998@Gmail.com?subject=Website Inquiry">
+          <div className="EmailButton">
             Hit Me Up!
-          </a>
-        </div>
+          </div>
+        </a>
 
       </div>
       <div className="Content-Container Content1">
