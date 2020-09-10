@@ -26,7 +26,7 @@ function App() {
           HUMAN.
         </div>
         <div className="Body">
-          Hi I'm Thomas! I recently graduated from Gonzaga with my BS in computer science and 
+          Hi, I'm Thomas! I recently graduated from Gonzaga with my BS in computer science and 
           now I'm searching for a software engineering position. 
           I have worked two summer internships and even seen some success in starting my own company, Adventure Game Works.
           For our company, I protoyped a web application using ReactJS that allowed users to understand and custimize our events. 
