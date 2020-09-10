@@ -45,7 +45,18 @@
 }
 
 .Content1 {
-  background: #f4b93d
+  background: #ff9e9e
+}
+
+.ContentImage{
+  margin-top: 35px;
+  max-width:100%;
+  max-height:100%;
+  box-shadow: 10px 10px 5px #ff8585;
+  border-color: #b92f2f;
+  border-width:1px;
+  border-style: solid;
+  margin-bottom: 35px;
 }
 
 .Content2 {
