@@ -21,25 +21,25 @@ function App() {
             DEVELOPER.
           </div>
           <div className="Subtitle">
-            THINKER.
+            CRITICAL THINKER.
           </div>
           <div className="Subtitle">
-            HUMAN.
+            LIFE LONG STUDENT.
           </div>
           <div className="Body">
             Hi, I'm Thomas! I recently graduated from Gonzaga with my BS in computer science and 
-            now I'm searching for a software engineering position. 
-            I have worked two summer internships and even seen some success in starting my own company, Adventure Game Works.
-            For our company, I protoyped a web application using ReactJS that allowed users to understand and custimize our events. 
-            Adventure Game Works went on to place second in both the Northwest Entrepreneurial Competition and the Dempsey Startup Competition. 
-            I took this experience I gained to land an internship at Kroger the following summer. I joined one of their a Front-End  web-dev teams  
-            where I was working with ReactJS, Redux, and Node and shipping code to tens of thousands of users. 
+            now I'm searching for a software engineering position. I have worked two summer internships 
+            and even I have seen some success in starting a company, Adventure Game Works. For this company, 
+            I prototyped a web application using ReactJS that allowed users to understand and customize 
+            their purchased events. Adventure Game Works went on to place second in both the Northwest 
+            Entrepreneurial Competition and the Dempsey Startup Competition. I took this experience and used 
+            it to land an internship at Kroger the following summer. I joined one of their Front-End web-dev 
+            teams where I was working with ReactJS, Redux, and Node and shipping code to tens of thousands of 
+            users.
           </div>
           <div className="Body">
-            I pick up on new technologies quickly and I’m eager to dive deep into this industry. 
-            I believe my greatest strengths are my abillity 
-            to comunicate with others and my creative thought process.
-            Check out my resume and socials below as well as some of my past projects.
+            I pick up on new technologies quickly and I’m eager to dive deep into this industry. I believe my greatest strengths are my ability to communicate with others and my creative thought process. 
+            Check out my socials, resume and past project.
           </div>
           <div className="Icon-Container">
             <form className="Link-Wrapper" action="https://www.linkedin.com/in/thomasmcdonald1998/">
