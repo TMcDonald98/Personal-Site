@@ -2,12 +2,13 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import './index.css';
-import linkedIn from "./icons/linkedin.png"
-import gitHub from "./icons/github-image.png"
-import beerViz from "./Images/BeerProduction.gif"
-import gitHubW from "./icons/github.png"
-import resume from "./icons/resume.png"
-import resumePDF from "./Documents/Resume (Thomas McDonald).pdf"
+import linkedIn from "./icons/linkedin.png";
+import gitHub from "./icons/github-image.png";
+import beerViz from "./Images/BeerProduction.gif";
+import gitHubW from "./icons/github.png";
+import resume from "./icons/resume.png";
+import resumePDF from "./Documents/Resume (Thomas McDonald).pdf";
+import GitCalendar from "./Components/GitCalendar.js";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
             More Projects Coming Soon!
           </div>
         </div>
+        <GitCalendar/>
         <footer>
           Made By Thomas McDonald, 2020.
         </footer>
