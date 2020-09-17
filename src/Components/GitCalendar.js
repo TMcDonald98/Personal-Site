@@ -5,8 +5,13 @@ import './GitCalendar.css';
 class GitCalendar extends Component {
     render() {
         return (
-            <div className="calendar">
-                Loading Data
+            <div className="Content-Container Content-Border">
+                <div className="ContentTitleBlack">
+                    My GitHub Activity
+                </div>
+                <div className="calendar">
+                    Loading Data
+                </div>
             </div>
         );
     }

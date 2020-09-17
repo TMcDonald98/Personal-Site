@@ -67,6 +67,17 @@
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
 
 }
+.ContentTitleBlack{
+  font-size: 24px;
+  font-family: 'MuseoSans100', 'Khanaya', sans-serif;
+  color: #4a4a4a;
+  padding-bottom: 24px;
+}
+
+.Content-Border{
+  border-left: 1px solid #DDDDDD;
+
+}
 
 .Content1 {
   background: #ff9e9e
