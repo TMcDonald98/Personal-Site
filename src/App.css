@@ -58,13 +58,13 @@
   color: #4a4a4a;
 }
 .Content-Container {
-  padding: 40px 45px 75px;
+  padding: 40px 45px 40px;
 }
 
 .ContentTitle {
   color:#fafafa;
   font-size: 24px;
-  font-family: 'MuseoSans', 'Khanaya', sans-serif;
+  font-family: 'MuseoSans100', 'Khanaya', sans-serif;
 
 }
 

@@ -28,7 +28,7 @@ function App() {
             LIFE LONG STUDENT.
           </div>
           <div className="Body">
-            Hi, I'm Thomas! I recently graduated from Gonzaga with my BS in computer science and 
+            Hi, I'm Thomas! I recently graduated from Gonzaga University with my BS in computer science and 
             now I'm searching for a software engineering position. I have worked two summer internships 
             and even seen some success in starting a company, Adventure Game Works. For this company, 
             I prototyped a web application using ReactJS that allowed users to understand and customize 
