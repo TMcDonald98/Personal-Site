@@ -25,7 +25,7 @@ function App() {
             CRITICAL THINKER.
           </div>
           <div className="Subtitle">
-            LIFE LONG STUDENT.
+            LIFE LONG LEARNER.
           </div>
           <div className="Body">
             Hi, I'm Thomas! I recently graduated from Gonzaga University with my BS in computer science and 
