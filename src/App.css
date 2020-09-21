@@ -49,6 +49,8 @@
   font-size: 24px;
   font-family: 'MuseoSans', 'Khanaya', sans-serif;
   color: #4a4a4a;
+  margin:0;
+  font-weight: 100;
 }
 
 .Body {
@@ -57,6 +59,7 @@
   font-family: 'MuseoSans100';
   color: #4a4a4a;
 }
+
 .Content-Container {
   padding: 40px 45px 40px;
 }
@@ -65,6 +68,7 @@
   color:#fafafa;
   font-size: 24px;
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
+  margin: 0;
 
 }
 .ContentTitleBlack{
@@ -72,6 +76,7 @@
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
   color: #4a4a4a;
   padding-bottom: 24px;
+  margin: 0;
 }
 
 .Content-Border{

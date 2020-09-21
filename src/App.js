@@ -9,40 +9,40 @@ import gitHubW from "./icons/github.png";
 import resume from "./icons/resume.png";
 import resumePDF from "./Documents/Resume (Thomas McDonald).pdf";
 import GitCalendar from "./Components/GitCalendar.js";
-
+// t-mcdonald.com
 function App() {
   return (
     <div className="Main-Container">
-      <div className="SideBanner">
+      <header className="SideBanner">
         <div className="SideContent">
-          <div className="Title">
+          <title className="Title">
             THOMAS MCDONALD
-          </div>
-          <div className="Subtitle">
+          </title>
+          <h1 className="Subtitle">
             DEVELOPER.
-          </div>
-          <div className="Subtitle">
+            <br/>
             CRITICAL THINKER.
-          </div>
-          <div className="Subtitle">
+            <br/>
             LIFE LONG LEARNER.
-          </div>
+          </h1>
+          
           <div className="Body">
-            Hi, I'm Thomas! I recently graduated from Gonzaga University with my BS in computer science and 
-            now I'm searching for a software engineering position. I have worked two summer internships 
-            and even seen some success in starting a company, Adventure Game Works. For this company, 
-            I prototyped a web application using ReactJS that allowed users to understand and customize 
-            their purchased events. Adventure Game Works went on to place second in both the Northwest 
-            Entrepreneurial Competition and the Dempsey Startup Competition. I took this experience and used 
-            it to land an internship at Kroger the following summer. I joined one of their Front-End web-dev 
-            teams where I was working with ReactJS, Redux, and Node and shipping code to tens of thousands of 
-            users.
+            <p1>
+              Hi, I'm Thomas! I recently graduated from Gonzaga University with my BS in computer science and 
+              now I'm searching for a software engineering position. I have worked two summer internships 
+              and even seen some success in starting a company, Adventure Game Works. For this company, 
+              I prototyped a web application using ReactJS that allowed users to understand and customize 
+              their purchased events. Adventure Game Works went on to place second in both the Northwest 
+              Entrepreneurial Competition and the Dempsey Startup Competition. I took this experience and used 
+              it to land an internship at Kroger the following summer. I joined one of their Front-End web-dev 
+              teams where I was working with ReactJS, Redux, and Node and shipping code to tens of thousands of 
+              users.
+              <br/><br/>
+              I pick up on new technologies quickly and I’m eager to dive deep into this industry. I believe my greatest strengths are my ability to communicate with others and my creative thought process. 
+              Check out my socials, resume and past projects.
+            </p1>
           </div>
-          <div className="Body">
-            I pick up on new technologies quickly and I’m eager to dive deep into this industry. I believe my greatest strengths are my ability to communicate with others and my creative thought process. 
-            Check out my socials, resume and past projects.
-          </div>
-          <div className="Icon-Container">
+          <section className="Icon-Container">
             <form className="Link-Wrapper" action="https://www.linkedin.com/in/thomasmcdonald1998/">
               <input type="image" className="Icon" src={linkedIn} alt="LinkedIn"/>
             </form>
@@ -52,7 +52,7 @@ function App() {
             <form className="Link-Wrapper" action={resumePDF}>
               <input type="image" className="Icon" src={resume} alt="GitHub"/>
             </form>
-          </div>
+          </section>
           <a className="Link-Wrapper Icon-Container" href="mailto:ThomasMcDonald1998@Gmail.com?subject=Website Inquiry">
             <div className="EmailButton">
               Hit Me Up!
@@ -60,27 +60,27 @@ function App() {
           </a>
         </div>
 
-      </div>
+      </header>
       <div className="All-Content">
-        <div className="Content-Container Content1">
-          <div className="ContentTitle">
+        <article className="Content-Container Content1">
+          <h2 className="ContentTitle">
             Beer Production Visualization.
-          </div>
+          </h2>
           <img className="ContentImage" src={beerViz}/>
           <form className="Link-Wrapper" action="https://github.com/TMcDonald98/Beer-Production-Visualization">
             <input type="image" className="Icon" src={gitHubW} alt="GitHub"/>
           </form>
-        </div>
-        <div className="Content-Container Content2">
+        </article>
+        <article className="Content-Container Content2">
           <div className="ContentTitle">
             More Projects Coming Soon!
           </div>
-        </div>
-        <div className="Content-Container Content3">
+        </article>
+        <article className="Content-Container Content3">
           <div className="ContentTitle">
             More Projects Coming Soon!
           </div>
-        </div>
+        </article>
         <GitCalendar/>
         <footer>
           Made By Thomas McDonald, 2020.

@@ -5,14 +5,14 @@ import './GitCalendar.css';
 class GitCalendar extends Component {
     render() {
         return (
-            <div className="Content-Container Content-Border">
-                <div className="ContentTitleBlack">
+            <article className="Content-Container Content-Border">
+                <h2 className="ContentTitleBlack">
                     My GitHub Activity
-                </div>
+                </h2>
                 <div className="calendar">
                     Loading Data
                 </div>
-            </div>
+            </article>
         );
     }
 
