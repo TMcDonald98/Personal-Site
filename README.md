@@ -1,4 +1,4 @@
-# Visit my personal website at t-mcdonald.com
+# Visit my personal website at https://t-mcdonald.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
