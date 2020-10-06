@@ -43,13 +43,13 @@ function App() {
             </p1>
           </div>
           <section className="Icon-Container">
-            <form className="Link-Wrapper" action="https://www.linkedin.com/in/thomasmcdonald1998/">
-              <input type="image" className="Icon" src={linkedIn} alt="LinkedIn"/>
+            <form className="Link-Wrapper" target='_blank' action="https://www.linkedin.com/in/thomasmcdonald1998/">
+              <input type="image" className="Icon" src={linkedIn}  alt="LinkedIn"/>
             </form>
-            <form className="Link-Wrapper" action="https://github.com/TMcDonald98">
+            <form className="Link-Wrapper" target='_blank' action="https://github.com/TMcDonald98">
               <input type="image" className="Icon" src={gitHub} alt="GitHub"/>
             </form>
-            <form className="Link-Wrapper" action={resumePDF}>
+            <form className="Link-Wrapper" target='_blank' action={resumePDF}>
               <input type="image" className="Icon" src={resume} alt="GitHub"/>
             </form>
           </section>
@@ -67,18 +67,16 @@ function App() {
             Beer Production Visualization.
           </h2>
           <img className="ContentImage" src={beerViz}/>
-          <form className="Link-Wrapper" action="https://github.com/TMcDonald98/Beer-Production-Visualization">
+          <form className="Link-Wrapper" target='_blank' action="https://github.com/TMcDonald98/Beer-Production-Visualization">
             <input type="image" className="Icon" src={gitHubW} alt="GitHub"/>
           </form>
         </article>
         <article className="Content-Container Content2">
           <div className="ContentTitle">
-            More Projects Coming Soon!
           </div>
         </article>
         <article className="Content-Container Content3">
           <div className="ContentTitle">
-            More Projects Coming Soon!
           </div>
         </article>
         <GitCalendar/>
