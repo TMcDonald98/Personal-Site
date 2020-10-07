@@ -13,7 +13,7 @@
   padding: 40px 45px 75px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 975px){
   .SideBanner{
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 33%; /* Set the width of the sidebar */
