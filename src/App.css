@@ -69,7 +69,6 @@
   font-size: 24px;
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
   margin: 0;
-
 }
 .ContentTitleBlack{
   font-size: 24px;
@@ -92,22 +91,26 @@
   margin-top: 35px;
   max-width:100%;
   max-height:100%;
-  box-shadow: 10px 10px 5px #ff8585;
-  border-color: #b92f2f;
   border-width:1px;
   border-style: solid;
   margin-bottom: 35px;
 }
 
-.Content2 {
-  background: #005ba9
+.ContentImage1{
+  box-shadow: 10px 10px 5px #ff8585;
+  border-color: #b92f2f;
 }
 
-.Content3 {
+.ContentImage2{
+  box-shadow: 10px 10px 5px #90b199;
+  border-color: #48584c;
+}
+
+.Content2 {
   background: #b4ddbf
 }
 
-.Content2 {
+.Content3 {
   background: #005ba9
 }
 
@@ -119,6 +122,14 @@
 .Icon {
   margin-right: 40px;
   height:24px;
+  margin-bottom: 4px;
+  border: 2px solid transparent;
+  padding: 2px;
+  border-radius: 20%;
+}
+
+.Icon:hover {
+  border-color: #3b80fe;
 }
 
 .Link-Wrapper {
@@ -135,6 +146,10 @@
   font-family: 'MuseoSans100', 'Khanaya', sans-serif;
   border-radius: 100px;
   text-decoration: none;
+}
+
+.EmailButton:hover {
+  background: #2f66cb;
 }
 
 footer{

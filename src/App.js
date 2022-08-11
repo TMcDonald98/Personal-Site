@@ -1,14 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import './index.css';
 import linkedIn from "./icons/linkedin.png";
 import gitHub from "./icons/github-image.png";
 import beerViz from "./Images/BeerProduction.gif";
+import stackLine from "./Images/StacklineInterview.PNG"
 import gitHubW from "./icons/github.png";
 import resume from "./icons/resume.png";
 import resumePDF from "./Documents/Resume (Thomas McDonald).pdf";
-import GitCalendar from "./Components/GitCalendar.js";
+
 // t-mcdonald.com
 function App() {
   return (
@@ -27,20 +27,14 @@ function App() {
           </h1>
           
           <div className="Body">
-            <p1>
-              Hi, I'm Thomas! I recently graduated from Gonzaga University with my BS in computer science and 
-              now I'm searching for a software engineering position. I have worked two summer internships 
-              and even seen some success in starting a company, Adventure Game Works. For this company, 
-              I prototyped a web application using ReactJS that allowed users to understand and customize 
-              their purchased events. Adventure Game Works went on to place second in both the Northwest 
-              Entrepreneurial Competition and the Dempsey Startup Competition. I took this experience and used 
-              it to land an internship at Kroger the following summer. I joined one of their Front-End web-dev 
-              teams where I was working with ReactJS, Redux, and Node and shipping code to tens of thousands of 
-              users.
-              <br/><br/>
+            <p>
+              Hi, I'm Thomas! I've been contracting as a front end developer with Netflix the past 2 years, but I am ready for a change. I have been working with React JS the past 3 years, and I'm currently seeking hybrid or remote frontend positions. 
+              <br /><br />
               I pick up on new technologies quickly and I’m eager to dive deep into this industry. I believe my greatest strengths are my ability to communicate with others and my creative thought process. 
               Check out my socials, resume and past projects.
-            </p1>
+              <br /><br />
+              Go Zags!
+            </p>
           </div>
           <section className="Icon-Container">
             <form className="Link-Wrapper" target='_blank' action="https://www.linkedin.com/in/thomasmcdonald1998/">
@@ -62,24 +56,29 @@ function App() {
 
       </header>
       <div className="All-Content">
+        <article className="Content-Container Content2">
+          <h3 className="ContentTitle">
+            Mock Product Page
+          </h3>
+          <img className="ContentImage ContentImage2" src={stackLine} alt='productIMG'/>
+          <form className="Link-Wrapper" target='_blank' action="https://github.com/TMcDonald98/Stackline-Frontend-Assessment">
+            <input type="image" className="Icon" src={gitHubW} alt="GitHub"/>
+          </form>
+        </article>
         <article className="Content-Container Content1">
           <h2 className="ContentTitle">
             Beer Production Visualization.
           </h2>
-          <img className="ContentImage" src={beerViz}/>
+          <img className="ContentImage ContentImage1" src={beerViz} alt='beerViz'/>
           <form className="Link-Wrapper" target='_blank' action="https://github.com/TMcDonald98/Beer-Production-Visualization">
             <input type="image" className="Icon" src={gitHubW} alt="GitHub"/>
           </form>
-        </article>
-        <article className="Content-Container Content2">
-          <div className="ContentTitle">
-          </div>
         </article>
         <article className="Content-Container Content3">
           <div className="ContentTitle">
           </div>
         </article>
-        <GitCalendar/>
+        {/* <GitCalendar/> */}
         <footer>
           Made By Thomas McDonald, 2020.
         </footer>

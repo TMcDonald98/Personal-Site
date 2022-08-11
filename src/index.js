@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './Fonts/MuseoSansDisplay-Black.ttf'
 import './Fonts/MuseoSans-100.ttf'
-import { Document, Page } from 'react-pdf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
