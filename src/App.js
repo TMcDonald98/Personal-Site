@@ -28,10 +28,11 @@ function App() {
           
           <div className="Body">
             <p>
-              Hi, I'm Thomas! I've been contracting as a front end developer with Netflix the past 2 years, but I am ready for a change. I have been working with React JS the past 3 years, and I'm currently seeking hybrid or remote frontend positions. 
+              Hi, I'm Thomas! The past year I have dedicated my expertise at Mission Cloud working as a Full Stack engineer. During this period I have worked with external clients to maintain and develop new features for several AWS applications.
               <br /><br />
-              I pick up on new technologies quickly and I’m eager to dive deep into this industry. I believe my greatest strengths are my ability to communicate with others and my creative thought process. 
-              Check out my socials, resume and past projects.
+              Prior to Mission, I had the incredible opportunity to contribute as a front-end developer at Netflix, where I played a key role in shaping user experiences.
+              <br /><br />
+              My strengths lie in effective communication and a creative thought process. Explore more about my socials, resume, and past projects here.
               <br /><br />
               Go Zags!
             </p>
