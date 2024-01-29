@@ -7,7 +7,7 @@ import beerViz from "./Images/BeerProduction.gif";
 import stackLine from "./Images/StacklineInterview.PNG"
 import gitHubW from "./icons/github.png";
 import resume from "./icons/resume.png";
-import resumePDF from "./Documents/Resume (Thomas McDonald).pdf";
+import resumePDF from "./Documents/Thomas McDonald Resume 2024.pdf";
 
 // t-mcdonald.com
 function App() {
